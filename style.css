@@ -37,22 +37,56 @@ footer > * {
     font-family: "Roboto";
 }
 
-.small-font{
+.small-font {
     font-size: 18px;
 }
 
-.medium-font{
+.smaller-font {
+    font-size: 20px;
+}
+
+.medium-font {
     font-size: 25px;
 }
 
-.big-font{
+.big-font {
     font-size: 30px;
 }
 
-.very-big-font{
+.very-big-font {
     font-size: 55px;
 }
 
-.extra-big-font{
+.extra-big-font {
     font-size: 80px;
+}
+
+@media (max-width: 991px) {
+    .small-font {
+        font-size: 10px;
+    }
+
+    .smaller-font {
+        font-size: 11px;
+    }
+
+    .medium-font {
+        font-size: 12px;
+    }
+
+    .big-font {
+        font-size: 13px;
+    }
+
+    .extra-big-font {
+        font-size: 40px;
+    }
+
+    h2.title {
+        font-size: 26px;
+    }
+
+    h1.big-title {
+        font-size: 40px;
+    }
 }

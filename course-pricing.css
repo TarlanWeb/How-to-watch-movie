@@ -1,36 +1,30 @@
-.course-pricing{
-    background-color: #9DC9C8;
+.course-pricing {
+    background-color: #9dc9c8;
     overflow: auto;
     padding-bottom: 10%;
 }
 
-.course-pricing-price{
-    font-size: 25px;
+.course-pricing-price {
     margin-bottom: 0;
 }
 
-.course-pricing-price-value{
-    font-size: 80px;
+.course-pricing-price-value {
     margin-top: -5px;
 }
 
-.course-pricing-text{
+.course-pricing-text {
     display: flex;
 }
 
-.course-pricing-information{
+.course-pricing-information {
     width: 25%;
     margin-right: 5%;
 }
 
-.course-pricing-information-title{
-    font-size: 25px;
+.course-pricing-information-title {
     margin: 0;
-    
 }
 
-.course-pricing-information-content{
-    font-size: 18px;
+.course-pricing-information-content {
     margin-top: 5%;
-   
 }

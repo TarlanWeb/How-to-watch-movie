@@ -13,7 +13,6 @@
 }
 
 .customer-satisification-text {
-    font-size: 20px;
     margin: 0;
 }
 
@@ -22,9 +21,12 @@
     margin-top: 5%;
 }
 
+.customer-info img {
+    width: 20%;
+}
+
 .customer-name {
     font-family: Roboto Slab;
-    font-size: 25px;
     font-weight: 700;
     margin-bottom: 6%;
     margin-top: 15%;
@@ -33,5 +35,11 @@
 @media (min-width: 992px) and (max-width: 1279px) {
     .customer-satisification-card {
         width: 70%;
+    }
+}
+
+@media (max-width: 991px) {
+    .customer-satisification-card {
+        min-width: 200px;
     }
 }

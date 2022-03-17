@@ -3,10 +3,6 @@
     flex-direction: column;
 }
 
-.how-to-watch-text {
-    font-size: 20px;
-}
-
 .how-to-watch-main {
     display: flex;
     justify-content: space-between;
@@ -43,11 +39,18 @@
 }
 
 .how-to-watch-quote-text {
-    font-size: 25px;
     font-family: "Roboto Slab", serif;
     margin: 0;
 }
 
 .how-to-watch-author {
     margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .how-to-watch-quote {
+        align-self: flex-start;
+        width: 50%;
+        min-width: 230px;
+    }
 }

@@ -7,10 +7,6 @@
     max-width: 55%;
 }
 
-.about-course-paragraph {
-    font-size: 25px;
-}
-
 .about-course-videograph {
     width: 25%;
     min-width: 250px;
@@ -35,13 +31,11 @@
 
 .continuity-item {
     min-width: fit-content;
-    font-size: 18px;
     margin-right: 5%;
 }
 
 .continuity-item h3 {
     margin: 0;
-    font-size: 25px;
     font-weight: 700;
 }
 
@@ -52,5 +46,13 @@
 
     .about-course-continuity-items {
         flex-direction: column;
+    }
+
+    .about-course-main {
+        flex-direction: column;
+    }
+
+    .about-course-main-paragraph {
+        max-width: 100%;
     }
 }

@@ -25,11 +25,18 @@
 }
 
 .course-program-item-content h3 {
-    font-size: 25px;
     font-weight: 700;
     margin: 0;
 }
 
-.course-program-item-content p {
-    font-size: 20px;
+@media (max-width: 991px) {
+    .course-program-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-program-item {
+        width: 70%;
+        margin-block: 7%;
+    }
 }
