@@ -1,0 +1,24 @@
+.lesson-format-items {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.lesson-format-item {
+    width: 25%;
+    min-width: 200px;
+    font-size: 18px;
+    margin-right: 5%;
+}
+
+.lesson-format-item h3 {
+    color: #1e4681;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    .lesson-format-items {
+        flex-direction: column;
+    }
+}

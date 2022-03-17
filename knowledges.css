@@ -1,0 +1,18 @@
+.knowledges{
+    
+    font-size: 24px;
+}
+
+.knowledges ul{
+    width: 60%;
+    padding-left: 20px;
+}
+
+
+@media (max-width:991px) {
+
+    .knowledges ul{
+        width: 100%;
+    }
+    
+}

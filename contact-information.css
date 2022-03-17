@@ -1,0 +1,39 @@
+.contact-information {
+    background-color: black;
+    color: white;
+    overflow: auto;
+    /* padding-bottom: 8%; */
+}
+
+.contact-information-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.contact-information-logo {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.contact-information-social {
+    display: flex;
+}
+
+.contact-information-social img {
+    width: 25%;
+    margin-right: 10%;
+}
+
+.contact-information-contacts {
+    font-size: 25px;
+}
+
+.contact-information-contacts span {
+    vertical-align: sub;
+    font-size: 30px;
+}
+
+.copyright {
+    margin: 8% 0 4% 0;
+}

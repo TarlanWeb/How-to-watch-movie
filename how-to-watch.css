@@ -1,0 +1,53 @@
+.how-to-watch {
+    display: flex;
+    flex-direction: column;
+}
+
+.how-to-watch-text {
+    font-size: 20px;
+}
+
+.how-to-watch-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-to-watch-producer {
+    margin-right: 8%;
+}
+
+@media (max-width: 991px) {
+    .how-to-watch-main {
+        flex-direction: column;
+    }
+
+    .how-to-watch-producer {
+        width: 30%;
+        align-self: flex-end;
+    }
+}
+
+.how-to-watch-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: center;
+
+    width: 33.5%;
+    min-width: 480px;
+    padding: 3%;
+    margin-top: 4.6%;
+    border-radius: 5px;
+    background-color: #1e4681;
+    color: white;
+}
+
+.how-to-watch-quote-text {
+    font-size: 25px;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+}
+
+.how-to-watch-author {
+    margin-bottom: 0;
+}

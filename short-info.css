@@ -1,0 +1,11 @@
+.short-info {
+    display: flex;
+}
+
+.short-info-box {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    min-width: fit-content;
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+.course-pricing{
+    background-color: #9DC9C8;
+    overflow: auto;
+    padding-bottom: 10%;
+}
+
+.course-pricing-price{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.course-pricing-price-value{
+    font-size: 80px;
+    margin-top: -5px;
+}
+
+.course-pricing-text{
+    display: flex;
+}
+
+.course-pricing-information{
+    width: 25%;
+    margin-right: 5%;
+}
+
+.course-pricing-information-title{
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+.course-pricing-information-content{
+    font-size: 18px;
+    margin-top: 5%;
+   
+}
