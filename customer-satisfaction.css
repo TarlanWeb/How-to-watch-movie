@@ -38,7 +38,7 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 700px) {
     .customer-satisification-card {
         min-width: 200px;
     }

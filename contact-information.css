@@ -32,3 +32,17 @@
 .copyright {
     margin: 8% 0 4% 0;
 }
+
+@media (max-width: 700px) {
+    .contact-information-main {
+        flex-direction: column;
+    }
+
+    .contact-information-social img {
+        width: 10%;
+    }
+
+    .contact-information-contacts-box {
+        margin-block: 20%;
+    }
+}
